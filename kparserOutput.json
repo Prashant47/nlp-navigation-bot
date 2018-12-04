@@ -1,0 +1,261 @@
+    {
+        "data": {
+            "isClass": false,
+            "isACoreferent": false,
+            "pos": "VB",
+            "isASemanticRole": false,
+            "isEntity": false,
+            "wordSense": "00678369",
+            "word": "pick-1",
+            "isEvent": true
+        },
+        "children": [
+            {
+                "data": {
+                    "isClass": false,
+                    "isACoreferent": false,
+                    "pos": "NN",
+                    "isASemanticRole": false,
+                    "isEntity": true,
+                    "wordSense": "13787536",
+                    "word": "bottle-4",
+                    "Edge": "recipient",
+                    "isEvent": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "isClass": false,
+                            "isACoreferent": false,
+                            "pos": "JJ",
+                            "isASemanticRole": false,
+                            "isEntity": true,
+                            "wordSense": "00382159",
+                            "word": "red-3",
+                            "Edge": "trait",
+                            "isEvent": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "isClass": true,
+                                    "isACoreferent": false,
+                                    "pos": "JJ",
+                                    "isASemanticRole": false,
+                                    "isEntity": false,
+                                    "word": "red",
+                                    "Edge": "instance_of",
+                                    "isEvent": false
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "isClass": true,
+                                            "isACoreferent": false,
+                                            "isASemanticRole": false,
+                                            "isEntity": false,
+                                            "word": "color_descriptive",
+                                            "Edge": "is_subclass_of",
+                                            "isEvent": false
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "isClass": true,
+                            "isACoreferent": false,
+                            "pos": "NN",
+                            "isASemanticRole": false,
+                            "isEntity": false,
+                            "word": "bottle",
+                            "Edge": "instance_of",
+                            "isEvent": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "isClass": true,
+                                    "isACoreferent": false,
+                                    "pos": "NN",
+                                    "isASemanticRole": false,
+                                    "isEntity": false,
+                                    "word": "quantity",
+                                    "Edge": "is_subclass_of",
+                                    "isEvent": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "isClass": false,
+                            "isACoreferent": false,
+                            "isASemanticRole": true,
+                            "isEntity": false,
+                            "word": ":thing picked",
+                            "Edge": "semantic_role",
+                            "isEvent": false
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "isClass": true,
+                    "isACoreferent": false,
+                    "pos": "VB",
+                    "isASemanticRole": false,
+                    "isEntity": false,
+                    "word": "pick",
+                    "Edge": "instance_of",
+                    "isEvent": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "isClass": true,
+                            "isACoreferent": false,
+                            "pos": "VB",
+                            "isASemanticRole": false,
+                            "isEntity": false,
+                            "word": "cognition",
+                            "Edge": "is_subclass_of",
+                            "isEvent": false
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "isClass": false,
+                    "isACoreferent": false,
+                    "pos": "VB",
+                    "isASemanticRole": false,
+                    "isEntity": false,
+                    "wordSense": "01839438",
+                    "word": "move-6",
+                    "Edge": "next_event",
+                    "isEvent": true
+                },
+                "children": [
+                    {
+                        "data": {
+                            "isClass": true,
+                            "isACoreferent": false,
+                            "pos": "VB",
+                            "isASemanticRole": false,
+                            "isEntity": false,
+                            "word": "move",
+                            "Edge": "instance_of",
+                            "isEvent": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "isClass": true,
+                                    "isACoreferent": false,
+                                    "pos": "VB",
+                                    "isASemanticRole": false,
+                                    "isEntity": false,
+                                    "word": "motion",
+                                    "Edge": "is_subclass_of",
+                                    "isEvent": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "isClass": false,
+                            "isACoreferent": false,
+                            "pos": "NN",
+                            "isASemanticRole": false,
+                            "isEntity": true,
+                            "wordSense": "13783547",
+                            "word": "spot-9",
+                            "Edge": "target",
+                            "isEvent": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "isClass": true,
+                                    "isACoreferent": false,
+                                    "pos": "NN",
+                                    "isASemanticRole": false,
+                                    "isEntity": false,
+                                    "word": "spot",
+                                    "Edge": "instance_of",
+                                    "isEvent": false
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "isClass": true,
+                                            "isACoreferent": false,
+                                            "pos": "NN",
+                                            "isASemanticRole": false,
+                                            "isEntity": false,
+                                            "word": "quantity",
+                                            "Edge": "is_subclass_of",
+                                            "isEvent": false
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "isClass": false,
+                                    "isACoreferent": false,
+                                    "pos": "JJ",
+                                    "isASemanticRole": false,
+                                    "isEntity": true,
+                                    "wordSense": "00393873",
+                                    "word": "black-8",
+                                    "Edge": "trait",
+                                    "isEvent": false
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "isClass": true,
+                                            "isACoreferent": false,
+                                            "pos": "JJ",
+                                            "isASemanticRole": false,
+                                            "isEntity": false,
+                                            "word": "black",
+                                            "Edge": "instance_of",
+                                            "isEvent": false
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "isClass": true,
+                                                    "isACoreferent": false,
+                                                    "isASemanticRole": false,
+                                                    "isEntity": false,
+                                                    "word": "color_descriptive",
+                                                    "Edge": "is_subclass_of",
+                                                    "isEvent": false
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
